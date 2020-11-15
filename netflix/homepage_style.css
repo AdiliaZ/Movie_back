@@ -102,7 +102,6 @@ body {
 
 .container_list {
     position: relative;
-   
     top: 80px;
 }
 
@@ -123,6 +122,8 @@ body {
     min-height: 200px;
     display: flex;
     overflow-x: auto;
+    margin-bottom: 20px;
+    
 }
 
 .card::-webkit-scrollbar {
@@ -130,21 +131,25 @@ body {
 }
 
 .margin-list {
-    margin-right: 10px;
+    margin-right: 0px;
+    margin-left: 15px;
 }
 
 .mylist {
     position: relative;
     width: 300px;
     height: 31px;
-    left: -30px;
+    left: 10px;
     top: 70px;
     color: white;
     font-family: Content;
     font-style: normal;
     font-weight: bold;
-    font-size: 23px;
+    font-size: 19px;
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.04em;
+    display: flex;
+    align-items: flex-start;
 }
+
