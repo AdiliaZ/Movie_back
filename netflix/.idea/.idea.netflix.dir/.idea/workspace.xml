@@ -10,9 +10,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -24,6 +24,11 @@
         <option value="$PROJECT_DIR$/exmp.css" />
         <option value="$PROJECT_DIR$/netflixStyle.css" />
         <option value="$PROJECT_DIR$/js_home.js" />
+        <option value="$PROJECT_DIR$/dropdown.html" />
+        <option value="$PROJECT_DIR$/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/bootstrap.min.js" />
+        <option value="$PROJECT_DIR$/tvshows_page.html" />
+        <option value="$PROJECT_DIR$/tvshows_style.css" />
         <option value="$PROJECT_DIR$/homepage.html" />
         <option value="$PROJECT_DIR$/homepage_style.css" />
       </list>
@@ -52,7 +57,10 @@
       <workItem from="1604750897534" duration="1739000" />
       <workItem from="1605033020781" duration="9733000" />
       <workItem from="1605351741324" duration="4638000" />
-      <workItem from="1605455230766" duration="2544000" />
+      <workItem from="1605455230766" duration="3481000" />
+      <workItem from="1605462946034" duration="65000" />
+      <workItem from="1605463057918" duration="3522000" />
+      <workItem from="1605776077743" duration="9881000" />
     </task>
     <servers />
   </component>

@@ -16,10 +16,10 @@
         <div class="nav_links">
             <ul class="ul_links">
                 <li>
-                    <a class="n_links">Home</a>
+                    <a href="homepage.html" class="n_links">Home</a>
                 </li>
                 <li>
-                    <a class="n_links">TV Shows</a>
+                    <a href="tvshows_page.html" class="n_links">TV Shows</a>
                 </li>
                 <li>
                     <a class="n_links">Movies</a>
@@ -32,6 +32,10 @@
                 </li>
             </ul>
         </div>
+        <div class="search-container">
+            <input type="text" placeholder="Search">
+            <div class="search"></div>
+        </div>
         <div class="user">
             <img class="user-img" src="netflix_assects/cat.png">
         </div>
@@ -41,7 +45,12 @@
 <div class="container">
     <div class="main_image">
         <a href="#">
-            <img class="image_container" src="netflix_assects/queens_gambit_png.png">
+            <div class="overlay">
+                <h3 class="main_title">Home</h3>
+            </div>
+            <video loop muted autoplay playsinline class="image_container">
+                <source src="netflix_assects/TheQueen’sGambit.mp4" type="video/mp4">
+            </video>
         </a>
     </div>
     <h3 class="mylist">My List</h3>
@@ -252,5 +261,15 @@
     
 </div>
 
+<footer class="footer">
+    <div class="questions">
+        <a href="#" class="connect">Есть вопросы? свяжитесь с нами.</a>
+    </div>
+    <div class="links">
+        <a class="f_nav" href="#">Распространенные вопросы</a>
+        <a class="f_nav" href="#">Центр поддержки</a>
+        <a class="f_nav" href="#">Конфиденциальность</a>
+    </div>
+</footer>
 </body>
 </html>
