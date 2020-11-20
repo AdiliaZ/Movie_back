@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="newpage_style.css">
+    <title>Movies</title>
+    <style>
+        .dropbtn {
+            background-color: #000;
+            color: white;
+            text-align: left;
+            padding-left: 15px;
+            width: 130px;
+            height: 30px;
+            font-size: 12px;
+            border-style: solid;
+            border-width: 1px;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+            left: 20px;
+            top: 10px;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: rgba(0,0,0,.9);
+            min-width: 180px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown:hover .dropdown-content {display: block;}
+
+        .dropdown-content a:hover {text-decoration: underline;}
+
+        .dropdown:hover .dropbtn {background-color: transparent;}
+    </style>
+</head>
+<body>
+<header class="header">
+    <nav class="nav_header">
+        <div class="logo">
+            <a class="home" href="homepage.html">
+            <h3 class="logo-text">
+                MOVIES
+            </h3>
+            </a>
+        </div>
+        <div class="nav_links">
+            <ul class="ul_links">
+                <li>
+                    <a href="homepage.html" class="n_links">Home</a>
+                </li>
+                <li>
+                    <a href="tvshows_page.html" class="n_links">TV Shows</a>
+                </li>
+                <li>
+                    <a href="movies_page.html" class="n_links">Movies</a>
+                </li>
+                <li>
+                    <a href="new_page.html" class="n_links">New</a>
+                </li>
+                <li>
+                    <a class="n_links">My List</a>
+                </li>
+            </ul>
+        </div>
+        <div class="search-container">
+            <input type="text" placeholder="Search">
+            <div class="search"></div>
+        </div>
+        <div class="user">
+            <img class="user-img" src="netflix_assects/cat.png">
+        </div>
+    </nav>
+</header>
+
+
+
+<div class="container">
+    <div class="main_image">
+        <a href="#">
+            <div class="overlay">
+                <h3 class="main_title">New</h3>
+            </div>
+        </a>
+    </div>
+
+    <div class="dropdown">
+        <button class="dropbtn">Genres</button>
+        <div class="dropdown-content">
+            <ul class="inline">
+                <li class="drop-item1">
+                    <a href="#" class="drop-text">Action</a>
+                </li>
+                <li class="drop-item1">
+                    <a href="#" class="drop-text">Anime</a>
+                </li>
+                <li class="drop-item1">
+                    <a href="#" class="drop-text">Asian</a>
+                </li>
+                <li class="drop-item1">
+                    <a href="#" class="drop-text">British</a>
+                </li>
+                <li class="drop-item1">
+                    <a href="#" class="drop-text">Comedies</a>
+                </li>
+                <li class="drop-item1">
+                    <a href="#" class="drop-text">Crime</a>
+                </li>
+                <li class="drop-item1">
+                    <a href="#" class="drop-text">Docuseries</a>
+                </li>
+
+            </ul>
+            <ul class="inline">
+                <li class="drop-item2">
+                    <a href="#" class="drop-text">Dramas</a>
+                </li>
+                <li class="drop-item2">
+                    <a href="#" class="drop-text">Europian</a>
+                </li>
+                <li class="drop-item2">
+                    <a href="#" class="drop-text">History</a>
+                </li>
+                <li class="drop-item2">
+                    <a href="#" class="drop-text">Holidays</a>
+                </li>
+                <li class="drop-item2">
+                    <a href="#" class="drop-text">Horror</a>
+                </li>
+                <li class="drop-item2">
+                    <a href="#" class="drop-text">Kids</a>
+                </li>
+                <li class="drop-item2">
+                    <a href="#" class="drop-text">Reality & Talk</a>
+                </li>
+            </ul>
+            <ul class="inline">
+
+                <li class="drop-item3">
+                    <a href="#" class="drop-text">Romance</a>
+                </li>
+                <li class="drop-item3">
+                    <a href="#" class="drop-text">Russian</a>
+                </li>
+                <li class="drop-item3">
+                    <a href="#" class="drop-text">Sci-Fi & Fantasy</a>
+                </li>
+                <li class="drop-item3">
+                    <a href="#" class="drop-text">Science & Nature</a>
+                </li>
+                <li class="drop-item3">
+                    <a href="#" class="drop-text">Teen</a>
+                </li>
+                <li class="drop-item3">
+                    <a href="#" class="drop-text">Thriller</a>
+                </li>
+                <li class="drop-item3">
+                    <a href="#" class="drop-text">US</a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+    <h3 class="mylist">My List</h3>
+    <section class="card">
+        <div class="margin-list">
+            <a class="movies_list">
+                <img class="movie_img" src="netflix_assects/enola.jpg">
+            </a>
+        </div>
+        <div class="margin-list">
+            <a class="movies_list">
+                <img class="movie_img" src="netflix_assects/stranger_things.jpg">
+            </a>
+        </div>
+        <div class="margin-list">
+            <a class="movies_list">
+                <img class="movie_img" src="netflix_assects/13reasons.jpg">
+            </a>
+        </div>
+        <div class="margin-list">
+            <a class="movies_list">
+                <img class="movie_img" src="netflix_assects/umbrella.jpg">
+            </a>
+        </div>
+        <div class="margin-list">
+            <a class="movies_list">
+                <img class="movie_img" src="netflix_assects/theend.jpg">
+            </a>
+        </div>
+        <div class="margin-list">
+            <a class="movies_list">
+                <img class="movie_img" src="netflix_assects/society.jpg">
+            </a>
+        </div>
+    </section>
+    <h3 class="mylist">Original Movies</h3>
+    <section class="card">
+        <div class="margin-list">
+            <a class="movies_list">
+                <img class="o_movie_img" src="netflix_assects/queensgamb.jpg">
+            </a>
+        </div>
+        <div class="margin-list">
+            <a class="movies_list">
+                <img class="o_movie_img" src="netflix_assects/crown.jpg">
+            </a>
+        </div>
+        <div class="margin-list">
+            <a class="movies_list">
+                <img class="o_movie_img" src="netflix_assects/emily.jpg">
+            </a>
+        </div>
+        <div class="margin-list">
+            <a class="movies_list">
+                <img class="o_movie_img" src="netflix_assects/enola2.jpg">
+            </a>
+        </div>
+        <div class="margin-list">
+            <a class="movies_list">
+                <img class="o_movie_img" src="netflix_assects/haunting.jpg">
+            </a>
+        </div>
+        <div class="margin-list">
+            <a class="movies_list">
+                <img class="o_movie_img" src="netflix_assects/holidate.jpg">
+            </a>
+        </div>
+        <div class="margin-list">
+            <a class="movies_list">
+                <img class="o_movie_img" src="netflix_assects/stranger2.jpg">
+            </a>
+        </div>
+        <div class="margin-list">
+            <a class="movies_list">
+                <img class="o_movie_img" src="netflix_assects/dash.jpg">
+            </a>
+        </div>
+    </section>
+    <h3 class="mylist">Trending now</h3>
+    <section class="card">
+        <div class="margin-list">
+            <a class="movies_list">
+                <img class="o_movie_img" src="netflix_assects/crownTrend.jpg">
+            </a>
+        </div>
+        <div class="margin-list">
+            <a class="movies_list">
+                <img class="o_movie_img" src="netflix_assects/friendsTrend.jpg">
+            </a>
+        </div>
+        <div class="margin-list">
+            <a class="movies_list">
+                <img class="o_movie_img" src="netflix_assects/howimetTrend.jpg">
+            </a>
+        </div>
+        <div class="margin-list">
+            <a class="movies_list">
+                <img class="o_movie_img" src="netflix_assects/lakeTrend.jpg">
+            </a>
+        </div>
+        <div class="margin-list">
+            <a class="movies_list">
+                <img class="o_movie_img" src="netflix_assects/lockeTrend.jpg">
+            </a>
+        </div>
+        <div class="margin-list">
+            <a class="movies_list">
+                <img class="o_movie_img" src="netflix_assects/lovedeathTrend.jpg">
+            </a>
+        </div>
+        <div class="margin-list">
+            <a class="movies_list">
+                <img class="o_movie_img" src="netflix_assects/luciferTrend.jpg">
+            </a>
+        </div>
+        <div class="margin-list">
+            <a class="movies_list">
+                <img class="o_movie_img" src="netflix_assects/youTrend.jpg">
+            </a>
+        </div>
+    </section>
+    <h3 class="mylist">Romantic Movies</h3>
+    <section class="card">
+        <div class="margin-list">
+            <a class="movies_list">
+                <img class="o_movie_img" src="netflix_assects/prideRoma.jpg">
+            </a>
+        </div>
+        <div class="margin-list">
+            <a class="movies_list">
+                <img class="o_movie_img" src="netflix_assects/aboutRoma.jpg">
+            </a>
+        </div>
+        <div class="margin-list">
+            <a class="movies_list">
+                <img class="o_movie_img" src="netflix_assects/alltheRoma.jpg">
+            </a>
+        </div>
+        <div class="margin-list">
+            <a class="movies_list">
+                <img class="o_movie_img" src="netflix_assects/forestRoma.jpg">
+            </a>
+        </div>
+        <div class="margin-list">
+            <a class="movies_list">
+                <img class="o_movie_img" src="netflix_assects/howtoRoma.jpg">
+            </a>
+        </div>
+        <div class="margin-list">
+            <a class="movies_list">
+                <img class="o_movie_img" src="netflix_assects/isntRoma.jpg">
+            </a>
+        </div>
+        <div class="margin-list">
+            <a class="movies_list">
+                <img class="o_movie_img" src="netflix_assects/perfectRoma.jpg">
+            </a>
+        </div>
+        <div class="margin-list">
+            <a class="movies_list">
+                <img class="o_movie_img" src="netflix_assects/theoryRoma.jpg">
+            </a>
+        </div>
+    </section>
+    <h3 class="mylist">Action & Adventure</h3>
+    <section class="card">
+        <div class="margin-list">
+            <a class="movies_list">
+                <img class="o_movie_img" src="netflix_assects/backAct.jpg">
+            </a>
+        </div>
+        <div class="margin-list">
+            <a class="movies_list">
+                <img class="o_movie_img" src="netflix_assects/inceptionAct.jpg">
+            </a>
+        </div>
+        <div class="margin-list">
+            <a class="movies_list">
+                <img class="o_movie_img" src="netflix_assects/lucyAct.jpg">
+            </a>
+        </div>
+        <div class="margin-list">
+            <a class="movies_list">
+                <img class="o_movie_img" src="netflix_assects/matrixAct.jpg">
+            </a>
+        </div>
+        <div class="margin-list">
+            <a class="movies_list">
+                <img class="o_movie_img" src="netflix_assects/mowgliAct.jpg">
+            </a>
+        </div>
+        <div class="margin-list">
+            <a class="movies_list">
+                <img class="o_movie_img" src="netflix_assects/oceansAct.jpg">
+            </a>
+        </div>
+        <div class="margin-list">
+            <a class="movies_list">
+                <img class="o_movie_img" src="netflix_assects/castact.jpg">
+            </a>
+        </div>
+        <div class="margin-list">
+            <a class="movies_list">
+                <img class="o_movie_img" src="netflix_assects/intotheAct.jpg">
+            </a>
+        </div>
+    </section>
+
+</div>
+
+<footer class="footer">
+    <div class="questions">
+        <a href="#" class="connect">Есть вопросы? свяжитесь с нами.</a>
+    </div>
+    <div class="links">
+        <a class="f_nav" href="#">Распространенные вопросы</a>
+        <a class="f_nav" href="#">Центр поддержки</a>
+        <a class="f_nav" href="#">Конфиденциальность</a>
+    </div>
+</footer>
+</body>
+</html>

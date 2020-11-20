@@ -11,8 +11,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -27,10 +27,14 @@
         <option value="$PROJECT_DIR$/dropdown.html" />
         <option value="$PROJECT_DIR$/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/bootstrap.min.js" />
-        <option value="$PROJECT_DIR$/tvshows_page.html" />
-        <option value="$PROJECT_DIR$/tvshows_style.css" />
+        <option value="$PROJECT_DIR$/new_page.html" />
+        <option value="$PROJECT_DIR$/newpage_style.css" />
         <option value="$PROJECT_DIR$/homepage.html" />
         <option value="$PROJECT_DIR$/homepage_style.css" />
+        <option value="$PROJECT_DIR$/tvshows_style.css" />
+        <option value="$PROJECT_DIR$/tvshows_page.html" />
+        <option value="$PROJECT_DIR$/movies_page.html" />
+        <option value="$PROJECT_DIR$/movies_style.css" />
       </list>
     </option>
   </component>
@@ -60,7 +64,8 @@
       <workItem from="1605455230766" duration="3481000" />
       <workItem from="1605462946034" duration="65000" />
       <workItem from="1605463057918" duration="3522000" />
-      <workItem from="1605776077743" duration="9881000" />
+      <workItem from="1605776077743" duration="11302000" />
+      <workItem from="1605875234996" duration="3340000" />
     </task>
     <servers />
   </component>

@@ -21,6 +21,11 @@ body {
     display: flex;
     flex-direction: row; 
 }
+
+.home {
+    text-decoration: none;
+}
+
 .logo {
     position: relative;
     width: 219px;
