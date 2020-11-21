@@ -11,8 +11,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -27,14 +27,17 @@
         <option value="$PROJECT_DIR$/dropdown.html" />
         <option value="$PROJECT_DIR$/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/bootstrap.min.js" />
-        <option value="$PROJECT_DIR$/new_page.html" />
-        <option value="$PROJECT_DIR$/newpage_style.css" />
         <option value="$PROJECT_DIR$/homepage.html" />
         <option value="$PROJECT_DIR$/homepage_style.css" />
         <option value="$PROJECT_DIR$/tvshows_style.css" />
-        <option value="$PROJECT_DIR$/tvshows_page.html" />
         <option value="$PROJECT_DIR$/movies_page.html" />
         <option value="$PROJECT_DIR$/movies_style.css" />
+        <option value="$USER_HOME$/Downloads/bootstrap-4.5.3-dist/css/bootstrap.min.css" />
+        <option value="$USER_HOME$/Downloads/bootstrap-4.5.3-dist/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/slider.html" />
+        <option value="$PROJECT_DIR$/tvshows_page.html" />
+        <option value="$PROJECT_DIR$/new_page.html" />
+        <option value="$PROJECT_DIR$/newpage_style.css" />
       </list>
     </option>
   </component>
@@ -65,7 +68,8 @@
       <workItem from="1605462946034" duration="65000" />
       <workItem from="1605463057918" duration="3522000" />
       <workItem from="1605776077743" duration="11302000" />
-      <workItem from="1605875234996" duration="3340000" />
+      <workItem from="1605875234996" duration="6156000" />
+      <workItem from="1605944256039" duration="5467000" />
     </task>
     <servers />
   </component>
@@ -86,10 +90,10 @@
       <screen x="0" y="23" width="1440" height="806" />
     </state>
     <state x="320" y="165" key="Rider.ProjectTemplateDialog.Size/0.23.1440.806@0.23.1440.806" timestamp="1605041045352" />
-    <state x="383" y="150" width="672" height="680" key="search.everywhere.popup" timestamp="1605045252814">
-      <screen x="0" y="23" width="1440" height="808" />
+    <state x="383" y="150" width="672" height="678" key="search.everywhere.popup" timestamp="1605947858051">
+      <screen x="0" y="23" width="1440" height="806" />
     </state>
-    <state x="383" y="150" width="672" height="678" key="search.everywhere.popup/0.23.1440.806@0.23.1440.806" timestamp="1604751102625" />
+    <state x="383" y="150" width="672" height="678" key="search.everywhere.popup/0.23.1440.806@0.23.1440.806" timestamp="1605947858051" />
     <state x="383" y="150" width="672" height="680" key="search.everywhere.popup/0.23.1440.808@0.23.1440.808" timestamp="1605045252814" />
   </component>
 </project>
