@@ -27,19 +27,21 @@
         <option value="$PROJECT_DIR$/dropdown.html" />
         <option value="$PROJECT_DIR$/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/bootstrap.min.js" />
-        <option value="$PROJECT_DIR$/homepage.html" />
         <option value="$PROJECT_DIR$/homepage_style.css" />
         <option value="$PROJECT_DIR$/tvshows_style.css" />
-        <option value="$PROJECT_DIR$/movies_page.html" />
         <option value="$PROJECT_DIR$/movies_style.css" />
         <option value="$USER_HOME$/Downloads/bootstrap-4.5.3-dist/css/bootstrap.min.css" />
         <option value="$USER_HOME$/Downloads/bootstrap-4.5.3-dist/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/slider.html" />
-        <option value="$PROJECT_DIR$/tvshows_page.html" />
-        <option value="$PROJECT_DIR$/new_page.html" />
         <option value="$PROJECT_DIR$/newpage_style.css" />
         <option value="$USER_HOME$/MovieProject/netflix/index.html" />
         <option value="$USER_HOME$/MovieProject/netflix/netflixStyle.css" />
+        <option value="$PROJECT_DIR$/mylist_style.css" />
+        <option value="$PROJECT_DIR$/my_list.html" />
+        <option value="$PROJECT_DIR$/movies_page.html" />
+        <option value="$PROJECT_DIR$/homepage.html" />
+        <option value="$PROJECT_DIR$/new_page.html" />
+        <option value="$PROJECT_DIR$/tvshows_page.html" />
       </list>
     </option>
   </component>
@@ -72,6 +74,7 @@
       <workItem from="1605776077743" duration="11302000" />
       <workItem from="1605875234996" duration="6156000" />
       <workItem from="1605944256039" duration="5947000" />
+      <workItem from="1606160153381" duration="332000" />
     </task>
     <servers />
   </component>
