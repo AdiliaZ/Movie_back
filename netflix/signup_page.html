@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="netflixStyle.css">
+    <link rel="stylesheet" type="text/css" href="signup_style.css">
     <title>Movies</title>
 </head>
 <body>
@@ -14,7 +14,7 @@
 </header>
 <div class="container">
     <div class="authorization">
-        <h3 class="login">Sign In</h3>
+        <h3 class="login">Sign Up</h3>
         <div class="login-field">
             <form method="post" id="login-form">
                 <label class="login_input">
@@ -25,12 +25,11 @@
                 <label class="password_input">
                     <input type="password" class="big_text big_text_pas" value placeholder="Password" name="password">
                 </label>
-                <button type="submit" id="login_button">Sign In</button>
-                <label>
-                    <input type="checkbox" class="remember_me" name="remember_me" > 
-                    <p class="remember_text">Remember me</p>
+                <label class="password_input">
+                    <input type="password" class="big_text big_text_conf_pas" value placeholder="Confirm password" name="password">
                 </label>
-                <a href="signup_page.html" class="sign_up">Have no account? Sign Up!</a>
+                <button type="submit" id="login_button">Sign Up</button>
+                <a href="index.html" class="sign_up"> <br>Already have an account? Sign In!</a>
             </form>
         </div>
     </div>

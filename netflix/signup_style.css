@@ -9,7 +9,7 @@ body {
     left: -31px;
     top: -31px;
     background-blend-mode: darken;
-   
+
     overflow-y: scroll;
 }
 
@@ -38,25 +38,25 @@ body {
     src: url(fonts/GemunuLibre-SemiBold.ttf) format('truetype');
     font-family: 'Courgette-Regular';
     src: url(fonts/Courgette-Regular.ttf) format('truetype');
-    
+
 }
 
 .authorization {
     position: relative;
     width: 511px;
-    height: 524px;
+    height: 660px;
     left: 488px;
     top: 139px;
     background-color: rgba(3, 3, 3, .65);
- 
+
 }
 
 .container {
-    
+
 }
 
 .login {
-    position: relative; 
+    position: relative;
     width: 215px;
     height: 51px;
     top: 56px;
@@ -97,13 +97,16 @@ body {
     top: 230px;
 }
 
-
+.big_text_conf_pas {
+    left:39px;
+    top: 330px;
+}
 
 #login_button{
     position: relative;
     width: 425px;
     height: 75px;
-    top: 325px;
+    top: 425px;
     left:39px;
     background: #C80000;
     border-radius: 10px;
@@ -125,18 +128,19 @@ body {
 .remember_text {
     color: white;
     position: relative;
-    top: 210px; 
+    top: 310px;
     left: 70px;
     font-family: "Abril Fatface", sans-serif;
 }
 
 .sign_up {
     color: white;
+    width: max-content;
     position: relative;
     font-family: "Abril Fatface", sans-serif;
-    font-size: 20px;
-    top: 330px;
-    left: 25%;
+    font-size: 15px;
+    top: 450px;
+    left: 140px;
 }
 
 .footer {
@@ -147,7 +151,7 @@ body {
     width: 1460px;
     height: 174px;
     left: 0;
-    top: 700px;
+    top: 900px;
     background: rgba(0, 0, 0, 0.65);
 }
 
@@ -155,7 +159,7 @@ body {
     position: relative;
     width: 362px;
     height: 31px;
-    top: 80px;     
+    top: 80px;
     font-family: Courgette-Regular, sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -175,7 +179,7 @@ footer{
     position: relative;
     width: 362px;
     height: 31px;
-    left: 270px; 
+    left: 270px;
     top: 30px;
 }
 
@@ -197,6 +201,3 @@ footer{
 .f_nav:hover {
     text-decoration: underline;
 }
-
-
-

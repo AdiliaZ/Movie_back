@@ -42,8 +42,10 @@
         <option value="$PROJECT_DIR$/tvshows_page.html" />
         <option value="$PROJECT_DIR$/userpage_style.css" />
         <option value="$PROJECT_DIR$/user_page.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/netflixStyle.css" />
+        <option value="$PROJECT_DIR$/signup_style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/signup_page.html" />
       </list>
     </option>
   </component>
@@ -79,7 +81,7 @@
       <workItem from="1606160153381" duration="3511000" />
       <workItem from="1606397850633" duration="920000" />
       <workItem from="1606398966793" duration="160000" />
-      <workItem from="1606399153778" duration="772000" />
+      <workItem from="1606399153778" duration="1777000" />
     </task>
     <servers />
   </component>
