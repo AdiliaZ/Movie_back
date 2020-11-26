@@ -197,12 +197,13 @@ body {
 .footer {
     right: 0;
     padding: 24px 0 35px;
-    position: absolute;
+    position: relative;
     text-align: center;
     width: 1460px;
     height: 174px;
     left: 0;
     background: rgba(0, 0, 0, 0.65);
+    top: 250px;
 }
 
 footer{
