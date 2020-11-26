@@ -11,18 +11,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/example.html" />
         <option value="$PROJECT_DIR$/exmp.css" />
-        <option value="$PROJECT_DIR$/netflixStyle.css" />
         <option value="$PROJECT_DIR$/js_home.js" />
         <option value="$PROJECT_DIR$/dropdown.html" />
         <option value="$PROJECT_DIR$/bootstrap.min.css" />
@@ -38,10 +36,14 @@
         <option value="$USER_HOME$/MovieProject/netflix/netflixStyle.css" />
         <option value="$PROJECT_DIR$/mylist_style.css" />
         <option value="$PROJECT_DIR$/my_list.html" />
-        <option value="$PROJECT_DIR$/movies_page.html" />
         <option value="$PROJECT_DIR$/homepage.html" />
+        <option value="$PROJECT_DIR$/movies_page.html" />
         <option value="$PROJECT_DIR$/new_page.html" />
         <option value="$PROJECT_DIR$/tvshows_page.html" />
+        <option value="$PROJECT_DIR$/userpage_style.css" />
+        <option value="$PROJECT_DIR$/user_page.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/netflixStyle.css" />
       </list>
     </option>
   </component>
@@ -74,7 +76,10 @@
       <workItem from="1605776077743" duration="11302000" />
       <workItem from="1605875234996" duration="6156000" />
       <workItem from="1605944256039" duration="5947000" />
-      <workItem from="1606160153381" duration="332000" />
+      <workItem from="1606160153381" duration="3511000" />
+      <workItem from="1606397850633" duration="920000" />
+      <workItem from="1606398966793" duration="160000" />
+      <workItem from="1606399153778" duration="772000" />
     </task>
     <servers />
   </component>

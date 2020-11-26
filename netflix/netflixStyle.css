@@ -38,5 +38,154 @@ body {
     src: url(fonts/GemunuLibre-SemiBold.ttf) format('truetype');
     font-family: 'Courgette-Regular';
     src: url(fonts/Courgette-Regular.ttf) format('truetype');
+    
 }
+
+.authorization {
+    position: relative;
+    width: 511px;
+    height: 524px;
+    left: 488px;
+    top: 139px;
+    background-color: rgba(3, 3, 3, .65);
+ 
+}
+
+.container {
+    
+}
+
+.login {
+    position: relative; 
+    width: 215px;
+    height: 51px;
+    top: 56px;
+    font-family: "Abril Fatface", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 53px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.big_text {
+    width: 425px;
+    height: 75px;
+    background: #525252;
+    border-radius: 10px;
+    border:none;
+    position: absolute;
+    font-family: "Abril Fatface", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #D2CDCD;
+    box-sizing: border-box;
+    padding: 25px;
+}
+
+.big_text_log{
+    left: 39px;
+    top: 130px;
+}
+
+.big_text_pas{
+    left: 39px;
+    top: 230px;
+}
+
+#login_button{
+    position: relative;
+    width: 425px;
+    height: 75px;
+    top: 325px;
+    left:39px;
+    background: #C80000;
+    border-radius: 10px;
+    border:none;
+    color:#FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 27px;
+    text-align: center;
+}
+
+.remember_me {
+    position: relative;
+    top: 250px;
+    right: 380px;
+}
+
+.remember_text {
+    color: white;
+    position: relative;
+    top: 210px; 
+    left: 70px;
+    font-family: "Abril Fatface", sans-serif;
+}
+
+.footer {
+    right: 0;
+    padding: 24px 0 35px;
+    position: absolute;
+    text-align: center;
+    width: 1460px;
+    height: 174px;
+    left: 0;
+    top: 700px;
+    background: rgba(0, 0, 0, 0.65);
+}
+
+.f_nav {
+    position: relative;
+    width: 362px;
+    height: 31px;
+    top: 80px;     
+    font-family: Courgette-Regular, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration: none;
+    color: #D2CDCD;
+    padding: 60px;
+}
+
+footer{
+    width: 100%;
+}
+
+.questions{
+    position: relative;
+    width: 362px;
+    height: 31px;
+    left: 270px; 
+    top: 30px;
+}
+
+.connect{
+    font-family: Courgette-Regular, sans-serif  ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #D2CDCD;
+    text-decoration: none;
+}
+
+.connect:hover{
+    text-decoration: underline;
+}
+
+.f_nav:hover {
+    text-decoration: underline;
+}
+
+
 
