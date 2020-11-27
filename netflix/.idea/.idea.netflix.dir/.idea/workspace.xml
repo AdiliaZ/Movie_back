@@ -46,11 +46,11 @@
         <option value="$PROJECT_DIR$/signup_page.html" />
         <option value="$PROJECT_DIR$/tvshows_page.html" />
         <option value="$PROJECT_DIR$/userpage_style.css" />
-        <option value="$PROJECT_DIR$/user_page.html" />
         <option value="$PROJECT_DIR$/movies_page.html" />
         <option value="$PROJECT_DIR$/my_list.html" />
         <option value="$PROJECT_DIR$/mylist_style.css" />
         <option value="$PROJECT_DIR$/movies_style.css" />
+        <option value="$PROJECT_DIR$/user_page.html" />
       </list>
     </option>
   </component>
@@ -87,7 +87,7 @@
       <workItem from="1606397850633" duration="920000" />
       <workItem from="1606398966793" duration="160000" />
       <workItem from="1606399153778" duration="9220000" />
-      <workItem from="1606487417101" duration="4656000" />
+      <workItem from="1606487417101" duration="5736000" />
     </task>
     <servers />
   </component>
