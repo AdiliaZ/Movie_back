@@ -1,0 +1,455 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #141414;
+}
+
+.header {
+    position: fixed;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 88.89%;
+    background: linear-gradient(180deg, #000000 76.89%, rgba(31, 24, 24, 0.83) 100%);
+    z-index: 1030;
+}
+
+.nav_header {
+    display: flex;
+    flex-direction: row;
+}
+
+.home {
+    text-decoration: none;
+}
+
+.logo {
+    position: relative;
+    width: 219px;
+    height: 75px;
+    left: 26px;
+    top: 10px;
+}
+
+.logo-text {
+    font-family: "Abril Fatface", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 65px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #F90000;
+}
+
+@font-face {
+    font-family: 'Abril Fatface';
+    src: url(fonts/AbrilFatface-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Content';
+    src: url(fonts/Content.ttf) format('truetype')
+}
+
+.nav_links {
+    position: relative;
+    left: 40px;
+    top: 28px;
+}
+
+.ul_links {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.n_links {
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: Content;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFEFE;
+    width: 61px;
+    height: 25px;
+}
+
+.user {
+    margin-left: auto !important;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+
+
+
+
+.overlay {
+    background: rgba(0,0,0,0);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    left: 100px;
+    padding-bottom: 420px;
+    z-index: 1;
+}
+
+.main_title {
+    font-family: Content;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFEFE;
+    width: 150px;
+    height: 25px;
+}
+
+.overlay_2 {
+    background: rgba(0,0,0,0);
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    padding-left: 250px;
+    padding-bottom: 410px;
+}
+
+.image_container {
+    position: relative;
+    top: 0px;
+    width: 100%;
+}
+
+.container_list {
+    position: relative;
+    top: 80px;
+}
+
+.movies_list {
+    display: flex;
+    flex-direction: row;
+}
+
+.movie_img {
+    height: 200px;
+}
+
+.o_movie_img {
+    width: 250px;
+}
+
+.card {
+    position: relative;
+    top: 190px;
+    background-color: transparent;
+    min-width: 100%;
+    min-height: 200px;
+    display: flex;
+    overflow-x: auto;
+    margin-bottom: 20px;
+}
+
+    .card::-webkit-scrollbar {
+        display: none;
+    }
+
+.margin-list {
+    margin-right: 0px;
+    margin-left: 15px;
+}
+
+.mylist {
+    position: relative;
+    width: 300px;
+    height: 31px;
+    left: 10px;
+    top: 70px;
+    color: white;
+    font-family: Content;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    display: flex;
+    align-items: flex-start;
+}
+
+.footer {
+    right: 0;
+    padding: 24px 0 35px;
+    position: relative;
+    text-align: center;
+    width: 100;
+    height: 174px;
+    left: 0;
+    background: rgba(0, 0, 0, 0.65);
+    top: 250px;
+}
+
+
+.questions {
+    position: relative;
+    width: 362px;
+    height: 31px;
+    left: 40%;
+    top: 30px;
+}
+
+.connect {
+    font-family: Courgette-Regular, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #D2CDCD;
+    text-decoration: none;
+}
+
+    .connect:hover {
+        text-decoration: underline;
+    }
+
+.f_nav:hover {
+    text-decoration: underline;
+}
+
+.f_nav {
+    position: relative;
+    width: 362px;
+    height: 31px;
+    top: 80px;
+    font-family: Courgette-Regular, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration: none;
+    color: #D2CDCD;
+    padding: 60px;
+}
+
+.inline {
+    display: table-cell;
+    list-style: none;
+}
+
+.drop-item1 {
+    width: max-content;
+    text-align: left;
+}
+
+.drop-item2 {
+    width: max-content;
+}
+
+.drop-item3 {
+    width: max-content;
+}
+
+.drop-text {
+    font-size: 15px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:700');
+
+.search-container {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 40%;
+    right: 0;
+    bottom: 0;
+    width: 300px;
+    height: 100px;
+}
+
+    .search-container .search {
+        position: absolute;
+        margin: auto;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 30px;
+        width: 48px;
+        height: 48px;
+        background: #b10202;
+        border-radius: 50%;
+        transition: all 1s;
+        z-index: 4;
+        box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.4);
+    }
+
+        .search-container .search:hover {
+            cursor: pointer;
+        }
+
+        .search-container .search::before {
+            content: "";
+            position: absolute;
+            margin: auto;
+            top: 16px;
+            right: 0;
+            bottom: 0;
+            left: 16px;
+            width: 12px;
+            height: 2px;
+            background: white;
+            transform: rotate(45deg);
+            transition: all 0.5s;
+        }
+
+        .search-container .search::after {
+            content: "";
+            position: absolute;
+            margin: auto;
+            top: -5px;
+            right: 0;
+            bottom: 0;
+            left: -5px;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            border: 2px solid white;
+            transition: all 0.5s;
+        }
+
+    .search-container input {
+        font-family: Content, sans-serif;
+        position: absolute;
+        margin: auto;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 50px;
+        height: 50px;
+        outline: none;
+        border: none;
+        background: #b10202;
+        color: ghostwhite;
+        text-shadow: 0 0 10px #b10202;
+        padding: 0 0 0 15px;
+        border-radius: 30px;
+        box-shadow: 0 0 25px 0 #b81515, 0 20px 25px 0 rgba(0, 0, 0, 0.2);
+        transition: all 1s;
+        opacity: 0;
+        z-index: 5;
+        font-size: 14px;
+        letter-spacing: 0.1em;
+    }
+
+        .search-container input:hover {
+            cursor: pointer;
+        }
+
+        .search-container input:focus {
+            width: 300px;
+            opacity: 1;
+            cursor: text;
+        }
+
+            .search-container input:focus ~ .search {
+                right: -250px;
+                background: #151515;
+                z-index: 6;
+            }
+
+                .search-container input:focus ~ .search::before {
+                    top: 0;
+                    left: 0;
+                    width: 25px;
+                }
+
+                .search-container input:focus ~ .search::after {
+                    top: 0;
+                    left: 0;
+                    width: 25px;
+                    height: 2px;
+                    border: none;
+                    background: #ffffff;
+                    border-radius: 0%;
+                    transform: rotate(-45deg);
+                }
+
+        .search-container input::placeholder {
+            color: ghostwhite;
+            opacity: 0.5;
+        }
+
+.new {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 150px;
+    left: 18%;
+    width: 200px;
+    height: 180px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 25px 0 #b81515, 0 20px 25px 0 rgba(0, 0, 0, 0.2);
+}
+
+.new2 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 150px;
+    right: 18%;
+    width: 200px;
+    height: 180px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 25px 0 #b81515, 0 20px 25px 0 rgba(0, 0, 0, 0.2);
+}
+
+.newone {
+    font-size: 40px;
+    font-family: Content;
+    color: #b10202;
+    text-align: center;
+    line-height: 60px;
+    text-shadow: 0 0 25px 0 #b81515, 0 20px 25px 0 rgba(0, 0, 0, 0.2);
+}
+
+.line {
+    position: relative;
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    top: 130px;
+    box-shadow: 0 0 18px 0 white, 0 20px 25px 0 rgba(0, 0, 0, 0.2);
+}
+
+.title-movies {
+    position: relative;
+    top: 170px;
+    left: 23px;
+}
+
+.text {
+    font-family: Content;
+    font-size: 30px;
+    color: white;
+}

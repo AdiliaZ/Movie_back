@@ -1,0 +1,50 @@
+﻿@page
+@model Movie_back.Pages.Sign_inModel
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/netflixStyle.css">
+    <title>Movies</title>
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <a class="logo_main">MOVIES</a>
+        </nav>
+
+    </header>
+    <div class="container">
+        <div class="authorization">
+            <h3 class="login">Sign In</h3>
+            <div class="login-field">
+                @Model.Msg
+                <form method="post" asp-page="Sign_in" id="login-form">
+                    <label class="login_input">
+                        <input type="text" asp-for=@Model.Email class="big_text big_text_log" 
+                               placeholder="E-mail"
+                               name="email">
+                    </label>
+                    <label class="password_input">
+                        <input type="password" asp-for=@Model.Password class="big_text big_text_pas" placeholder="Password" name="password" >
+                    </label>
+                    <button type="submit" value="Login" id="login_button">Sign In</button>
+                    <label>
+                        <input type="checkbox" class="remember_me" name="remember_me">
+                        <p class="remember_text">Remember me</p>
+                    </label>
+                    <a asp-area="" asp-page="/Sign_up"  class="sign_up">Have no account? Sign Up!</a>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="questions">
+            <a asp-area="" asp-page="/Help" class="connect">Есть вопросы? свяжитесь с нами.</a>
+        </div>
+    </footer>
+</body>
+</html>

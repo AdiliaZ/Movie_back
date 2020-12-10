@@ -1,0 +1,48 @@
+﻿@page
+@model Movie_back.Pages.Sign_upModel
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/signup_style.css">
+    <title>Movies</title>
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <a class="logo_main">MOVIES</a>
+        </nav>
+
+    </header>
+    <div class="container">
+        <div class="authorization">
+            <h3 class="login">Sign Up</h3>
+            <div class="login-field">
+                <form method="post" id="login-form">
+                    <label class="login_input">
+                        <input type="text" class="big_text big_text_log" value
+                               placeholder="E-mail or phone number"
+                               name="login">
+                    </label>
+                    <label class="password_input">
+                        <input type="password" class="big_text big_text_pas" value placeholder="Password" name="password">
+                    </label>
+                    <label class="password_input">
+                        <input type="password" class="big_text big_text_conf_pas" value placeholder="Confirm password" name="password">
+                    </label>
+                    <button type="submit" id="login_button">Sign Up</button>
+                    <a asp-area="" asp-page="/Sign_in" class="sign_up"> <br>Already have an account? Sign In!</a>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="questions">
+            <a asp-area="" asp-page="/Help" class="connect">Есть вопросы? свяжитесь с нами.</a>
+        </div>
+    </footer>
+</body>
+</html>

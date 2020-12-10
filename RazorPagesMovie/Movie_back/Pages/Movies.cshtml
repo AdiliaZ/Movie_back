@@ -1,0 +1,256 @@
+﻿@page
+@model Movie_back.Pages.MoviesModel
+@{
+}
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="~/css/movies_style.css">
+    <title>Movies</title>
+    <style>
+        .dropbtn {
+            background-color: #000;
+            color: white;
+            text-align: left;
+            padding-left: 15px;
+            width: 130px;
+            height: 30px;
+            font-size: 12px;
+            border-style: solid;
+            border-width: 1px;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+            left: 180px;
+            top: 120px;
+            cursor: pointer;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: rgba(0,0,0,.9);
+            min-width: 180px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+            .dropdown-content a {
+                color: white;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            text-decoration: underline;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: transparent;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <div class="container">
+
+        <h3 class="main_title">Movies</h3>
+
+
+        <div class="dropdown">
+            <button class="dropbtn">Genres</button>
+            <div class="dropdown-content">
+                <ul class="inline">
+                    <li class="drop-item1">
+                        <a asp-area="" asp-page="#" class="drop-text">Action</a>
+                    </li>
+                    <li class="drop-item1">
+                        <a asp-area="" asp-page="#" class="drop-text">Anime</a>
+                    </li>
+                    <li class="drop-item1">
+                        <a asp-area="" asp-page="#" class="drop-text">Asian</a>
+                    </li>
+                    <li class="drop-item1">
+                        <a asp-area="" asp-page="#" class="drop-text">British</a>
+                    </li>
+                    <li class="drop-item1">
+                        <a asp-area="" asp-page="#" class="drop-text">Comedies</a>
+                    </li>
+                    <li class="drop-item1">
+                        <a asp-area="" asp-page="#" class="drop-text">Crime</a>
+                    </li>
+                    <li class="drop-item1">
+                        <a asp-area="" asp-page="#" class="drop-text">Docuseries</a>
+                    </li>
+
+                </ul>
+                <ul class="inline">
+                    <li class="drop-item2">
+                        <a asp-area="" asp-page="#" class="drop-text">Dramas</a>
+                    </li>
+                    <li class="drop-item2">
+                        <a asp-area="" asp-page="#" class="drop-text">Europian</a>
+                    </li>
+                    <li class="drop-item2">
+                        <a asp-area="" asp-page="#" class="drop-text">History</a>
+                    </li>
+                    <li class="drop-item2">
+                        <a asp-area="" asp-page="#" class="drop-text">Holidays</a>
+                    </li>
+                    <li class="drop-item2">
+                        <a asp-area="" asp-page="#" class="drop-text">Horror</a>
+                    </li>
+                    <li class="drop-item2">
+                        <a asp-area="" asp-page="#" class="drop-text">Kids</a>
+                    </li>
+                    <li class="drop-item2">
+                        <a asp-area="" asp-page="#" class="drop-text">Reality & Talk</a>
+                    </li>
+                </ul>
+                <ul class="inline">
+
+                    <li class="drop-item3">
+                        <a asp-area="" asp-page="#" class="drop-text">Romance</a>
+                    </li>
+                    <li class="drop-item3">
+                        <a asp-area="" asp-page="#" class="drop-text">Russian</a>
+                    </li>
+                    <li class="drop-item3">
+                        <a asp-area="" asp-page="#" class="drop-text">Sci-Fi & Fantasy</a>
+                    </li>
+                    <li class="drop-item3">
+                        <a asp-area="" asp-page="#" class="drop-text">Science & Nature</a>
+                    </li>
+                    <li class="drop-item3">
+                        <a asp-area="" asp-page="#" class="drop-text">Teen</a>
+                    </li>
+                    <li class="drop-item3">
+                        <a asp-area="" asp-page="#" class="drop-text">Thriller</a>
+                    </li>
+                    <li class="drop-item3">
+                        <a asp-area="" asp-page="#" class="drop-text">US</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+        <section class="card">
+            <div class="margin-list">
+                <a asp-area="" asp-page="One_movie" class="movies_list">
+                    <img class="movie_img" src="netflix_assects/movies/klaus.jpg">
+                </a>
+            </div>
+            <div class="margin-list">
+                <a asp-area="" asp-page="One_movie" class="movies_list">
+                    <img class="movie_img" src="netflix_assects/movies/rise.jpg">
+                </a>
+            </div>
+            <div class="margin-list">
+                <a asp-area="" asp-page="One_movie" class="movies_list">
+                    <img class="movie_img" src="netflix_assects/movies/isnt.jpg">
+                </a>
+            </div>
+            <div class="margin-list">
+                <a asp-area="" asp-page="One_movie" class="movies_list">
+                    <img class="movie_img" src="netflix_assects/movies/toalltheboys.jpg">
+                </a>
+            </div>
+        </section>
+        <section class="card">
+            <div class="margin-list">
+                <a asp-area="" asp-page="One_movie" class="movies_list">
+                    <img class="movie_img" src="netflix_assects/movies/lordofthe.jpg">
+                </a>
+            </div>
+            <div class="margin-list">
+                <a asp-area="" asp-page="One_movie" class="movies_list">
+                    <img class="movie_img" src="netflix_assects/movies/isnt.jpg">
+                </a>
+            </div>
+            <div class="margin-list">
+                <a asp-area="" asp-page="One_movie" class="movies_list">
+                    <img class="movie_img" src="netflix_assects/movies/catch.jpg">
+                </a>
+            </div>
+            <div class="margin-list">
+                <a asp-area="" asp-page="One_movie" class="movies_list">
+                    <img class="movie_img" src="netflix_assects/movies/old.jpg">
+                </a>
+            </div>
+        </section>
+        <section class="card">
+            <div class="margin-list">
+                <a asp-area="" asp-page="One_movie" class="movies_list">
+                    <img class="movie_img" src="netflix_assects/movies/klaus.jpg">
+                </a>
+            </div>
+            <div class="margin-list">
+                <a asp-area="" asp-page="One_movie" class="movies_list">
+                    <img class="movie_img" src="netflix_assects/movies/rise.jpg">
+                </a>
+            </div>
+            <div class="margin-list">
+                <a asp-area="" asp-page="One_movie" class="movies_list">
+                    <img class="movie_img" src="netflix_assects/movies/isnt.jpg">
+                </a>
+            </div>
+            <div class="margin-list">
+                <a asp-area="" asp-page="One_movie" class="movies_list">
+                    <img class="movie_img" src="netflix_assects/movies/toalltheboys.jpg">
+                </a>
+            </div>
+        </section>
+        <section class="card">
+            <div class="margin-list">
+                <a asp-area="" asp-page="One_movie" class="movies_list">
+                    <img class="movie_img" src="netflix_assects/movies/lordofthe.jpg">
+                </a>
+            </div>
+            <div class="margin-list">
+                <a asp-area="" asp-page="One_movie" class="movies_list">
+                    <img class="movie_img" src="netflix_assects/movies/isnt.jpg">
+                </a>
+            </div>
+            <div class="margin-list">
+                <a asp-area="" asp-page="One_movie" class="movies_list">
+                    <img class="movie_img" src="netflix_assects/movies/catch.jpg">
+                </a>
+            </div>
+            <div class="margin-list">
+                <a asp-area="" asp-page="One_movie" class="movies_list">
+                    <img class="movie_img" src="netflix_assects/movies/old.jpg">
+                </a>
+            </div>
+        </section>
+        <section class="card">
+            <div class="margin-list">
+                <a asp-area="" asp-page="One_movie" class="movies_list">
+                    <img class="movie_img" src="netflix_assects/movies/klaus.jpg">
+                </a>
+            </div>
+            <div class="margin-list">
+                <a asp-area="" asp-page="One_movie" class="movies_list">
+                    <img class="movie_img" src="netflix_assects/movies/rise.jpg">
+                </a>
+            </div>
+            <div class="margin-list">
+                <a asp-area="" asp-page="One_movie" class="movies_list">
+                    <img class="movie_img" src="netflix_assects/movies/isnt.jpg">
+                </a>
+            </div>
+            <div class="margin-list">
+                <a asp-area="" asp-page="One_movie" class="movies_list">
+                    <img class="movie_img" src="netflix_assects/movies/toalltheboys.jpg">
+                </a>
+            </div>
+        </section>
+    </div>
+</body>

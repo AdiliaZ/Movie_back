@@ -1,0 +1,62 @@
+﻿@page
+@model Movie_back.Pages.HelpModel
+@{ 
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/help_page_style.css">
+    <title>Movies</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav_header">
+            <div class="logo">
+                <a class="home" href="homepage.html">
+                    <h3 class="logo-text">
+                        MOVIES
+                    </h3>
+                </a>
+            </div>
+            <div class="nav_links">
+                <ul class="ul_links">
+                    <li>
+                        <a href="homepage.html" class="n_links">Home</a>
+                    </li>
+                    <li>
+                        <a href="tvshows_page.html" class="n_links">TV Shows</a>
+                    </li>
+                    <li>
+                        <a href="movies_page.html" class="n_links">Movies</a>
+                    </li>
+                    <li>
+                        <a href="new_page.html" class="n_links">New</a>
+                    </li>
+                    <li>
+                        <a href="my_list.html" class="n_links">My List</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="search-container">
+                <input type="text" placeholder="Search">
+                <div class="search"></div>
+            </div>
+            <div class="user">
+                <a href="user_page.html">
+                    <img class="user-img" src="netflix_assects/cat.png">
+                </a>
+            </div>
+        </nav>
+    </header>
+    <div class="help_container">
+        <h3 class="connect">Connect us if you need help or leave your e-mail</h3>
+        <label class="help_label">
+            <input class="ur_email" type="email" placeholder="your e-mail">
+        </label>
+        <button class="send" type="submit">Send</button>
+        <p class="email">Our e-mail: safonova75@icloud.com</p>
+    </div>
+</body>
+</html>

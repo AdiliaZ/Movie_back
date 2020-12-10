@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/css/site.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav_header">
+            <div class="logo">
+                <a class="home" asp-page="/Index">
+                    <h3 class="logo-text">
+                        MOVIES
+                    </h3>
+                </a>
+            </div>
+            <div class="nav_links">
+                <ul class="ul_links">
+                    <li>
+                        <a asp-area="" asp-page="/Index" class="n_links">Home</a>
+                    </li>
+                    <li>
+                        <a asp-area="" asp-page="/Tv_Shows" class="n_links">TV Shows</a>
+                    </li>
+                    <li>
+                        <a asp-area="" asp-page="/Movies" class="n_links">Movies</a>
+                    </li>
+                    <li>
+                        <a asp-area="" asp-page="/New" class="n_links">New</a>
+                    </li>
+                    <li>
+                        <a asp-area="" asp-page="/My_List" class="n_links">My List</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="search-container">
+                <input type="text" placeholder="Search">
+                <div class="search"></div>
+            </div>
+            <div class="user">
+                <a asp-area="" asp-page="/User_page">
+                    <img class="user-img" src="netflix_assects/cat.png">
+                </a>
+            </div>
+        </nav>
+    </header>
+    @*  <body>
+                <header>
+                    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+                        <div class="container">
+                            <a class="navbar-brand" asp-area="" asp-page="/Index">Movie_back</a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                                <ul class="navbar-nav flex-grow-1">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </header>
+            <div class="container">
+                <main role="main" class="pb-3">
+
+             </main>
+        </div>*@
+    @RenderBody()
+
+    <footer class="footer">
+        <div class="questions">
+            <a asp-area="" asp-page="/Help" class="connect">Есть вопросы? свяжитесь с нами.</a>
+        </div>
+    </footer>
+    @*@ <footer class="border-top footer text-muted">
+            <div class="container">
+                &copy; 2020 - Movie_back - <a asp-area="" asp-page="/Privacy">Privacy</a>
+            </div>
+        </footer>
+    *@
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

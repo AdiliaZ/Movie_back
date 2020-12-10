@@ -1,0 +1,102 @@
+﻿@page
+@model Movie_back.Pages.One_movieModel
+@{
+    Layout = null;
+}
+
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/one_movie_style.css">
+    <title>Movies</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav_header">
+            <div class="logo">
+                <a class="home" href="homepage.html">
+                    <h3 class="logo-text">
+                        MOVIES
+                    </h3>
+                </a>
+            </div>
+            <div class="nav_links">
+                <ul class="ul_links">
+                    <li>
+                        <a href="homepage.html" class="n_links">Home</a>
+                    </li>
+                    <li>
+                        <a href="tvshows_page.html" class="n_links">TV Shows</a>
+                    </li>
+                    <li>
+                        <a href="movies_page.html" class="n_links">Movies</a>
+                    </li>
+                    <li>
+                        <a href="new_page.html" class="n_links">New</a>
+                    </li>
+                    <li>
+                        <a href="my_list.html" class="n_links">My List</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="search-container">
+                <input type="text" placeholder="Search">
+                <div class="search"></div>
+            </div>
+            <div class="user">
+                <a href="user_page.html">
+                    <img class="user-img" src="netflix_assects/cat.png">
+                </a>
+            </div>
+        </nav>
+    </header>
+    <div class="main">
+        <div class="about_movie">
+            <img class="image" src="netflix_assects/enola.jpg">
+            <p class="name">Movie name</p>
+            <select class="rate">
+                <option selected disabled>Rate</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+            <label>
+<textarea class="description" disabled>
+    Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamcolaboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptatevelit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident,sunt in culpa qui officia deserunt mollit anim id est laborum
+</textarea>
+            </label>
+            <p class="comments">Comments</p>
+        </div>
+        <div class="content-comments">
+            <div class="box_1">
+                <img class="user-img" src="netflix_assects/cat.png">
+                <textarea disabled class="comment">comment comment</textarea>
+            </div>
+            <div class="box_1">
+                <img class="user-img" src="netflix_assects/cat.png">
+                <textarea disabled class="comment">comment comment</textarea>
+            </div>
+            <div class="box_1">
+                <img class="user-img" src="netflix_assects/cat.png">
+                <textarea disabled class="comment">comment comment</textarea>
+            </div>
+            <div class="box_1">
+                <img class="user-img" src="netflix_assects/cat.png">
+                <textarea disabled class="comment">comment comment</textarea>
+            </div>
+            <div class="box_1">
+                <img class="user-img" src="netflix_assects/cat.png">
+                <textarea maxlength="140" class="comment" placeholder="Leave your comment..."></textarea>
+            </div>
+            <button class="leave_comment" type="submit">comment</button>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="questions">
+            <a asp-area="" asp-page="/Help" class="connect">Есть вопросы? свяжитесь с нами.</a>
+        </div>
+    </footer>
+</body>
